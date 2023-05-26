@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - MemCache-Swift (0.0.1)
+  - memcache_plugin (0.0.1):
+    - Flutter
+    - MemCache-Swift
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - MemCache-Swift (from `../../../../cpp/MemCache`)
+  - memcache_plugin (from `.symlinks/plugins/memcache_plugin/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  MemCache-Swift:
+    :path: "../../../../cpp/MemCache"
+  memcache_plugin:
+    :path: ".symlinks/plugins/memcache_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  MemCache-Swift: 45bc7c6fa87ca2dd56346b750661182cf68e87f4
+  memcache_plugin: 906d86f8e4737c9e2ae2de4a32e4d6ff6bbfa92f
+
+PODFILE CHECKSUM: c6c002f30b4c44150cb3d4eff35f5d3ac8e9ca94
+
+COCOAPODS: 1.12.1
